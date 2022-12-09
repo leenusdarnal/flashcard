@@ -1,0 +1,45 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+}
+
+.App form {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.App h1 {
+  font-size: 32;
+  text-align: center;
+}
+
+.decks {
+  display: grid;
+  width: 600px;
+  margin: 0 auto;
+  grid-gap: 10px;
+  grid-template-columns: repeat(3, 1fr);
+
+}
+
+.decks li {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  height: 100px;
+  border: 1px solid black;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.decks li button {
+  position: absolute;
+  font-size: 10px;
+  top: 5px;
+  right: 5px;
+}

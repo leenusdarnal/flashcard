@@ -1,0 +1,48 @@
+.Deck {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+}
+
+.Deck form {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.Deck h1 {
+  font-size: 32;
+  text-align: center;
+}
+
+
+.cards {
+  display: grid;
+  width: 600px;
+  margin: 0 auto;
+  grid-gap: 10px;
+  grid-template-columns: repeat(3, 1fr);
+
+}
+
+.cards li {
+
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
+  border: 1px solid white;
+  border-radius: 10px;
+  cursor: pointer;
+  padding: 8px;
+  padding-top: 30px;
+}
+
+.cards li button {
+  position: absolute;
+  font-size: 10px;
+  top: 5px;
+  right: 5px;
+}
